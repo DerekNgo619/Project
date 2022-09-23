@@ -2,29 +2,23 @@ public class Project
 {
     public static void main(String[] args) 
     {
-        int a = 5;
-        int b = 2;
-        int d = -8;
-        if (a == 5) {
-            System.out.println("SUCCESS");
-        } else {
-            System.out.println("FAILURE");
+        int i = 0;
+        int k = 0;
+        int a = 0;
+        int b = 0;
+        while (i < 15) {
+            System.out.println("i is " + i + " but is less than 15");
+            i++;
         }
-        if (b == 2) {
-            System.out.println("SUCCESS");
-        } else {
-            System.out.println("FAILURE");
+        while (k > 5) {
+            System.out.println("k is " + k + " but is greater than 5");
+            k++;
         }
-        if (b != 2) {
-            System.out.println("SUCCESS");
-        } else {
-            System.out.println("FAILURE");
-        }
-        if (d == -8 && a == 4) {
-            System.out.println("SUCCESS");
-        } else {
-            System.out.println("FAILURE");
-        }
+        while (a < 10 && b <= 20) {
+            System.out.println("a is " + a + " but is less than 10");
+            System.out.println("b is " + b + " but is less than or equal to 20");
+            a++;
+            b++;
         }
     }
-
+}
